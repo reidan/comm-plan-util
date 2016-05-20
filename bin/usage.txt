@@ -1,0 +1,3 @@
+usage: processCommPlan [IBPlanZipFile]
+
+  Processes the IBPlanZipFile so that it is in a format suitable for use in Git.

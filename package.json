@@ -1,0 +1,20 @@
+{
+  "name": "ib-plan-util",
+  "version": "1.0.0",
+  "description": "A utility used to work with exported Integration Builder plans",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "adm-zip": "^0.4.7",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1",
+    "walk": "^2.3.9"
+  },
+  "bin": {
+    "process-comm-plan-zip": "bin/cmd.js"
+  }
+}
