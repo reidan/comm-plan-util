@@ -12,5 +12,6 @@ if (argv.help) {
     return;
 }
 
-var zipFile = process.argv[2];
-commPlanUtil.processIBZip( zipFile );
+var baseDir = process.argv[2];
+var output = process.argv[3];
+commPlanUtil.packageCommPlan( process.cwd(), output );
