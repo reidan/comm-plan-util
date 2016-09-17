@@ -1,6 +1,6 @@
 # Overview
 
-This node package can be used to interact with xMatters Comm Plan exports.
+This node package can be used to interact with Comm Plan exports.
 
 # Features
 
