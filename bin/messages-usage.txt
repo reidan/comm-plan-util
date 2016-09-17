@@ -1,0 +1,15 @@
+
+ usage: buildMessages -c configFile -t templatesDir -p projectRoot
+
+ Builds messages based on the combination of configuration file, templates repo and form configuration
+
+  -configFile -c: 
+    (OPTIONAL) [default: ./conf/message-config.json]
+    The config file that will define all of the generated messages 
+  -templatesDir -t: 
+    (OPTIONAL) [default: ~/message-builder/templates]
+    The directory containing templates (most likely will be a local copy of the templates repo) 
+  -projectRoot -p: 
+    (OPTIONAL) [default: current working directory]
+    The path that holds the output of the process communication plan feature 
+
