@@ -15,7 +15,7 @@ if (argv.help) {
     return;
 }
 
-var outputFilename = "communication-plan";
+var outputFilename = "communication-plan-" + (new Date()).getTime();
 if( argv.outputFilename ) {
 	outputFilename = argv.outputFilename;
 }
